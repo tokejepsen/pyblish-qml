@@ -80,5 +80,6 @@ setup(
         "pyblish-base>=1.4",
         "PyQt5>=5.7"
     ],
+    dependency_links=['https://github.com/pyblish/pyblish-base/archive/1.4.0.tar.gz#egg=pyblish-base-1.4', ],
     entry_points={},
 )
