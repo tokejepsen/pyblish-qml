@@ -77,8 +77,9 @@ setup(
         ]
     },
     install_requires=[
-        "pyblish-base>=1.4"
+        "pyblish-base>=1.4",
+        "python-qt5>=0.2.0"
     ],
-    dependency_links=['https://github.com/pyblish/pyblish-base/archive/1.4.0.tar.gz#egg=pyblish-base-1.4'],
+    dependency_links=['https://github.com/pyblish/pyblish-base/archive/1.4.0.tar.gz#egg=pyblish-base-1.4', "https://github.com/pyqt/python-qt5/archive/0.2.0.tar.gz#egg=python-qt5-0.2.0"],
     entry_points={},
 )
